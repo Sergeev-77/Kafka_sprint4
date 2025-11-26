@@ -10,6 +10,7 @@
  * начальные данные для таблиц users и orders
 
 Настройки коннектора
+```json
 {
    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
    "database.hostname": "postgres",
@@ -29,6 +30,7 @@
    "topic.creation.default.partitions": "-1",
    "skipped.operations": "none"
 }
+```
 
 # 2. Генерация новых записей в таблицы БД users и orders
 
